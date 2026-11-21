@@ -7,3 +7,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Birthday Reminder
+
+- Read the [agent workflow](context/agent-workflow.md) for scope, documentation, edits, verification, and Git.
+- Read the [project overview](context/project-overview.md) and [coding standards](context/coding-standards.md) before planning or editing.
+- Check the [active feature](context/current-feature.md) and follow the [feature workflow](skills/feature/SKILL.md) for the requested action.
