@@ -22,10 +22,10 @@ Birthday Reminder is a lightweight Persian web app for people who want to track 
 
 | Milestone | Outcome and completion criteria | Feature specs |
 | --- | --- | --- |
-| M0 | Any visitor can create a personal account or sign in to an existing account with email and password from `/`. Signed-in users reach `/app` and access protected routes with a valid session. | Pending |
-| M1 | On a phone, the user can add a friend, see the Solar Hijri countdown, and save a gift idea with or without a private photo. A second account cannot access the first account's records or photos. | Pending |
-| M2 | The first release supports annual greeting status, purchase toggling with unpurchased ideas first, and installation and launch from a phone's home screen. | Pending |
-| M3 | If the reminder proposal is approved, verify a reminder seven calendar days before a birthday in a test environment for a user who opted in. | Pending |
+| M0 | Any visitor can create a personal account or sign in to an existing account with email and password from `/`. Signed-in users reach `/app` and access protected routes with a valid session. | [Account access](features/m0-01-account-access.md) |
+| M1 | On a phone, the user can add a friend, see the Solar Hijri countdown, and save a gift idea with or without a private photo. A second account cannot access the first account's records or photos. | [Add friends](features/m1-01-add-friends.md), [Birthday dashboard](features/m1-02-birthday-dashboard.md), [Gift ideas](features/m1-03-gift-ideas.md), [Private gift photos](features/m1-04-private-gift-photos.md) |
+| M2 | The first release supports annual greeting status, purchase toggling with unpurchased ideas first, and installation and launch from a phone's home screen. | [Annual greetings](features/m2-01-annual-greetings.md), [Gift purchase status](features/m2-02-gift-purchase-status.md), [Installable PWA](features/m2-03-installable-pwa.md) |
+| M3 | If the reminder proposal is approved, verify a reminder seven calendar days before a birthday in a test environment for a user who opted in. | Pending reminder approval |
 
 ## Pages, user flows, and UI references
 
