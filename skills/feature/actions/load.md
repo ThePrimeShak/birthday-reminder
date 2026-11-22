@@ -1,0 +1,7 @@
+# Load a spec
+
+1. Read the active record. If the requested spec is already active, report its state and stop. If another is active, ask how to handle it before replacing the record.
+2. Check the branch, working tree, and pending Git operations. With a clean checkout, switch to existing local `dev` when needed, then recheck its active record before continuing. If `dev` is missing, ask which commit or branch should be its starting point.
+3. Resolve the requested ID by its filename stem in `context/features/` or `context/fixes/` on `dev`, or use the explicit spec path in one of those directories. For example, `feature load m0-01-baseline-check` selects `context/features/m0-01-baseline-check.md`. Ask which path to use when an ID is ambiguous. If the spec exists only in uncommitted changes, report that it needs to be recorded on `dev` first. If it is missing, suggest `feature plan` or ask for its path.
+4. Read the spec and the relevant parts of the overview. Update only `context/current-feature.md`. Use English for the title, checklist, and notes, preserving any required localized UI strings as quoted examples. Set the relative link under `Spec`, record the acceptance criteria as unchecked checklist items under `Goals`, and record scope, dependencies, references, and verification details under `Notes`. Preserve `History`, keep `Branch` empty, and set `Status` to `Not Started`.
+5. Leave the active record unstaged. Summarize the goals, blockers, and decisions still open. Wait for `start`.
